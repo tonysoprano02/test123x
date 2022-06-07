@@ -22,10 +22,10 @@ jobs:
           node-version: 13.x
 
       - name: cordova
-        run: npm install -g cordova
+        run: npm install -g cordova@latest
 
       - name: Ionic
-        run: npm install -g @ionic/cli
+        run: npm install -g ionic@latest
       
       - name: npm
         run: npm install
